@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-# GuitarZero
-### Objective
-For our Digital Systems Lab final project, my partners and I decided to make a Guitar Hero like name (aptly named Guitar Zero) that can run on the FPGA. Our objective was to display sprites to the screen and having those sprites drop down the screen based on the music that was loaded into memory.
-### Description
-This project turned out to be more complicated than we anticipated because we had to write USB interface, VGA, and sound drivers from scratch. Ultimately our game was completed and consisted of sprite generation, randomization of sprites, sound driver, video driver, and usb controller driver. The project took about 2 months spending 10-20 hours a week. 
- ### Technology
- - SystemVerilog for all FPGA module code
- - C for all the driver itnerface code
- - Cyclone IV FPGA chip on which this whole game was presented
-=======
-# ECE385-FinalProject
-ECE385 FinalProject from ZJUI FA2020
->>>>>>> 6e93f938e30a5902d16dcb6b09a157001bc8e323
+# ECE385-FinalProject  
+ECE385 FinalProject from ZJUI FA2020  
+### Description  
+In the final project, we design a game named Bongo Touch, which is a 2D percussion music game. In the hardware part, we use System Bus, on-chip-memory, SDRAM in our SoC and implement control modules, music modules, display modules and so on. We use NIOS Ⅱ CPU to interface with USB keyboard as we have done in lab 8. In our software part, we modified the C code about USB and IO to accept 4 keycodes input at the same time. 
+In the game, the player should press “S” or “F” if there is a red note coming and press “A” or “G“ if there is a blue note coming. The player should press the keyboard as the same time with the flowing note reaching the destination. The note will become smiling if the player press the right keyboard at the right time and then he will be awarded one score. The total score will display at the left of the destination. Meanwhile, we have two patterns, which are 1P (one player) and 2P (two players). The second player should press “↓” or “1” if there is a red note coming and press “←” or “2“ if there is a blue note coming. There are two notes coming at the same time separately for each player and the scores will be calculated and display separately.
