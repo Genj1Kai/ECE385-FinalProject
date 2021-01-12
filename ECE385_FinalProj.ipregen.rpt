@@ -1,0 +1,418 @@
+IP Upgrade report for ECE385_FinalProj
+Sat Jan 02 14:05:49 2021
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Passed - Sat Jan 02 14:05:49 2021           ;
+; Quartus Prime Version        ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                ; ECE385_FinalProj                            ;
+; Top-level Entity Name        ; toplevel                                    ;
+; Family                       ; Cyclone IV E                                ;
++------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                               ;
++---------------+----------------+---------+-------------------------------------------+----------------------+-------------------------------------------+---------+
+; Entity Name   ; Component Name ; Version ; Original Source File                      ; Generation File Path ; New Source File                           ; Message ;
++---------------+----------------+---------+-------------------------------------------+----------------------+-------------------------------------------+---------+
+; finalproj_soc ; Qsys           ; 18.0    ; finalproj_soc/synthesis/finalproj_soc.qip ; finalproj_soc.qsys   ; finalproj_soc/synthesis/finalproj_soc.qip ;         ;
+; USB_Clock_PLL ; ALTPLL         ; 18.0    ; USB_Clock_PLL.qip                         ; USB_Clock_PLL.v      ; USB_Clock_PLL.qip                         ;         ;
+; vga_clk       ; ALTPLL         ; 18.0    ; vga_clk.qip                               ; vga_clk.v            ; vga_clk.qip                               ;         ;
++---------------+----------------+---------+-------------------------------------------+----------------------+-------------------------------------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "finalproj_soc.qsys" to "finalproj_soc.BAK.qsys"
+Info (11902): Backing up file "finalproj_soc/synthesis/finalproj_soc.v" to "finalproj_soc.BAK.v"
+Info (11837): Started upgrading IP component Qsys with file "finalproj_soc.qsys"
+Info: 2021.01.02.14:03:43 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info: 2021.01.02.14:03:43 Info: Finished upgrading the ip cores
+Info: 2021.01.02.14:03:50 Info: Saving generation log to D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc
+Info: 2021.01.02.14:03:50 Info: Starting: Create simulation model
+Info: 2021.01.02.14:03:50 Info: qsys-generate D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Info: 2021.01.02.14:03:50 Info: Loading DrumMaster
+Info: 2021.01.02.14:03:51 Info: Reading input file
+Info: 2021.01.02.14:03:51 Info: Adding clk_0 [clock_source 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module clk_0
+Info: 2021.01.02.14:03:51 Info: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module jtag_uart_0
+Info: 2021.01.02.14:03:51 Info: Adding keycode [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module keycode
+Info: 2021.01.02.14:03:51 Info: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module nios2_gen2_0
+Info: 2021.01.02.14:03:51 Info: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module onchip_memory2_0
+Info: 2021.01.02.14:03:51 Info: Adding otg_hpi_address [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module otg_hpi_address
+Info: 2021.01.02.14:03:51 Info: Adding otg_hpi_cs [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module otg_hpi_cs
+Info: 2021.01.02.14:03:51 Info: Adding otg_hpi_data [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module otg_hpi_data
+Info: 2021.01.02.14:03:51 Info: Adding otg_hpi_r [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module otg_hpi_r
+Info: 2021.01.02.14:03:51 Info: Adding otg_hpi_reset [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module otg_hpi_reset
+Info: 2021.01.02.14:03:51 Info: Adding otg_hpi_w [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module otg_hpi_w
+Info: 2021.01.02.14:03:51 Info: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module sdram
+Info: 2021.01.02.14:03:51 Info: Adding sdram_pll [altpll 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module sdram_pll
+Info: 2021.01.02.14:03:51 Info: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Info: 2021.01.02.14:03:51 Info: Parameterizing module sysid_qsys_0
+Info: 2021.01.02.14:03:51 Info: Building connections
+Info: 2021.01.02.14:03:51 Info: Parameterizing connections
+Info: 2021.01.02.14:03:51 Info: Validating
+Info: 2021.01.02.14:03:52 Info: Done reading input file
+Info: 2021.01.02.14:03:54 Info: finalproj_soc.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: 2021.01.02.14:03:54 Info: finalproj_soc.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2021.01.02.14:03:54 Info: finalproj_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: 2021.01.02.14:03:54 Info: finalproj_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: 2021.01.02.14:03:54 Info: finalproj_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: 2021.01.02.14:03:54 Info: finalproj_soc: Generating finalproj_soc "finalproj_soc" for SIM_VERILOG
+Info: 2021.01.02.14:03:57 Info: Inserting clock-crossing logic between cmd_demux.src5 and cmd_mux_005.sink0
+Info: 2021.01.02.14:03:57 Info: Inserting clock-crossing logic between cmd_demux_001.src4 and cmd_mux_005.sink1
+Info: 2021.01.02.14:03:57 Info: Inserting clock-crossing logic between rsp_demux_005.src0 and rsp_mux.sink5
+Info: 2021.01.02.14:03:57 Info: Inserting clock-crossing logic between rsp_demux_005.src1 and rsp_mux_001.sink4
+Info: 2021.01.02.14:04:02 Info: jtag_uart_0: Starting RTL generation for module 'finalproj_soc_jtag_uart_0'
+Info: 2021.01.02.14:04:02 Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=finalproj_soc_jtag_uart_0 --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0002_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0002_jtag_uart_0_gen//finalproj_soc_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0002_jtag_uart_0_gen
+Info: 2021.01.02.14:04:02 Info: jtag_uart_0: Done RTL generation for module 'finalproj_soc_jtag_uart_0'
+Info: 2021.01.02.14:04:02 Info: jtag_uart_0: "finalproj_soc" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: 2021.01.02.14:04:02 Info: keycode: Starting RTL generation for module 'finalproj_soc_keycode'
+Info: 2021.01.02.14:04:02 Info: keycode:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_keycode --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0003_keycode_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0003_keycode_gen//finalproj_soc_keycode_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0003_keycode_gen
+Info: 2021.01.02.14:04:03 Info: keycode: Done RTL generation for module 'finalproj_soc_keycode'
+Info: 2021.01.02.14:04:03 Info: keycode: "finalproj_soc" instantiated altera_avalon_pio "keycode"
+Info: 2021.01.02.14:04:04 Info: nios2_gen2_0: "finalproj_soc" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: 2021.01.02.14:04:04 Info: onchip_memory2_0: Starting RTL generation for module 'finalproj_soc_onchip_memory2_0'
+Info: 2021.01.02.14:04:04 Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=finalproj_soc_onchip_memory2_0 --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0004_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0004_onchip_memory2_0_gen//finalproj_soc_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0004_onchip_memory2_0_gen
+Info: 2021.01.02.14:04:04 Info: onchip_memory2_0: Done RTL generation for module 'finalproj_soc_onchip_memory2_0'
+Info: 2021.01.02.14:04:04 Info: onchip_memory2_0: "finalproj_soc" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: 2021.01.02.14:04:04 Info: otg_hpi_address: Starting RTL generation for module 'finalproj_soc_otg_hpi_address'
+Info: 2021.01.02.14:04:04 Info: otg_hpi_address:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_otg_hpi_address --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0005_otg_hpi_address_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0005_otg_hpi_address_gen//finalproj_soc_otg_hpi_address_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0005_otg_hpi_address_gen
+Info: 2021.01.02.14:04:05 Info: otg_hpi_address: Done RTL generation for module 'finalproj_soc_otg_hpi_address'
+Info: 2021.01.02.14:04:05 Info: otg_hpi_address: "finalproj_soc" instantiated altera_avalon_pio "otg_hpi_address"
+Info: 2021.01.02.14:04:05 Info: otg_hpi_cs: Starting RTL generation for module 'finalproj_soc_otg_hpi_cs'
+Info: 2021.01.02.14:04:05 Info: otg_hpi_cs:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_otg_hpi_cs --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0006_otg_hpi_cs_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0006_otg_hpi_cs_gen//finalproj_soc_otg_hpi_cs_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0006_otg_hpi_cs_gen
+Info: 2021.01.02.14:04:05 Info: otg_hpi_cs: Done RTL generation for module 'finalproj_soc_otg_hpi_cs'
+Info: 2021.01.02.14:04:05 Info: otg_hpi_cs: "finalproj_soc" instantiated altera_avalon_pio "otg_hpi_cs"
+Info: 2021.01.02.14:04:05 Info: otg_hpi_data: Starting RTL generation for module 'finalproj_soc_otg_hpi_data'
+Info: 2021.01.02.14:04:05 Info: otg_hpi_data:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_otg_hpi_data --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0007_otg_hpi_data_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0007_otg_hpi_data_gen//finalproj_soc_otg_hpi_data_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0007_otg_hpi_data_gen
+Info: 2021.01.02.14:04:05 Info: otg_hpi_data: Done RTL generation for module 'finalproj_soc_otg_hpi_data'
+Info: 2021.01.02.14:04:05 Info: otg_hpi_data: "finalproj_soc" instantiated altera_avalon_pio "otg_hpi_data"
+Info: 2021.01.02.14:04:05 Info: sdram: Starting RTL generation for module 'finalproj_soc_sdram'
+Info: 2021.01.02.14:04:05 Info: sdram:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=finalproj_soc_sdram --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0008_sdram_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0008_sdram_gen//finalproj_soc_sdram_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0008_sdram_gen
+Info: 2021.01.02.14:04:05 Info: sdram: Done RTL generation for module 'finalproj_soc_sdram'
+Info: 2021.01.02.14:04:05 Info: sdram: "finalproj_soc" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: 2021.01.02.14:04:07 Info: sdram_pll: Generating Verilog simulation model
+Warning: 2021.01.02.14:04:16 Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: 2021.01.02.14:04:16 Info: sdram_pll: Generated simulation model finalproj_soc_sdram_pll.vo
+Info: 2021.01.02.14:04:16 Info: sdram_pll: "finalproj_soc" instantiated altpll "sdram_pll"
+Info: 2021.01.02.14:04:16 Info: sysid_qsys_0: "finalproj_soc" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: 2021.01.02.14:04:28 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:29 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:30 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:31 Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:31 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:32 Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:33 Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:34 Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:34 Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:35 Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:36 Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:36 Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:37 Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:04:48 Info: mm_interconnect_0: "finalproj_soc" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: 2021.01.02.14:04:48 Info: irq_mapper: "finalproj_soc" instantiated altera_irq_mapper "irq_mapper"
+Info: 2021.01.02.14:04:48 Info: rst_controller: "finalproj_soc" instantiated altera_reset_controller "rst_controller"
+Info: 2021.01.02.14:04:48 Info: cpu: Starting RTL generation for module 'finalproj_soc_nios2_gen2_0_cpu'
+Info: 2021.01.02.14:04:48 Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=finalproj_soc_nios2_gen2_0_cpu --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0016_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0016_cpu_gen//finalproj_soc_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0016_cpu_gen
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:48 (*) Starting Nios II generation
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:48 (*)   Checking for plaintext license.
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   LM_LICENSE_FILE environment variable is empty
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   Plaintext license not found.
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   No license required to generate encrypted Nios II
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   Elaborating CPU configuration settings
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:49 (*)   Creating all objects for CPU
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:50 (*)   Creating 'C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0016_cpu_gen/
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:50 (*)   Generating RTL from CPU objects
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:50 (*)   Creating plain-text RTL
+Info: 2021.01.02.14:04:50 Info: cpu: # 2021.01.02 14:04:50 (*) Done Nios II generation
+Info: 2021.01.02.14:04:50 Info: cpu: Done RTL generation for module 'finalproj_soc_nios2_gen2_0_cpu'
+Info: 2021.01.02.14:04:50 Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: 2021.01.02.14:04:50 Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: 2021.01.02.14:04:50 Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: 2021.01.02.14:04:50 Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: 2021.01.02.14:04:50 Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: 2021.01.02.14:04:50 Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: 2021.01.02.14:04:50 Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: 2021.01.02.14:04:50 Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: 2021.01.02.14:04:50 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: 2021.01.02.14:04:50 Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: 2021.01.02.14:04:50 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: 2021.01.02.14:04:50 Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: 2021.01.02.14:04:50 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: 2021.01.02.14:04:50 Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: 2021.01.02.14:04:50 Info: Reusing file D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation/submodules
+Info: 2021.01.02.14:04:50 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: 2021.01.02.14:04:50 Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: 2021.01.02.14:04:50 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: 2021.01.02.14:04:50 Info: Reusing file D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation/submodules
+Info: 2021.01.02.14:04:50 Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: 2021.01.02.14:04:50 Info: Reusing file D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation/submodules
+Info: 2021.01.02.14:04:50 Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: 2021.01.02.14:04:52 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: 2021.01.02.14:04:52 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: 2021.01.02.14:04:52 Info: finalproj_soc: Done "finalproj_soc" with 35 modules, 59 files
+Info: 2021.01.02.14:04:52 Info: qsys-generate succeeded.
+Info: 2021.01.02.14:04:52 Info: Finished: Create simulation model
+Info: 2021.01.02.14:04:52 Info: Starting: Create Modelsim Project.
+Info: 2021.01.02.14:04:52 Info: sim-script-gen --spd=D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc\finalproj_soc.spd --output-directory=D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:52 Info: Doing: ip-make-simscript --spd=D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc\finalproj_soc.spd --output-directory=D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info: Generating the following file(s) for MODELSIM simulator in D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info:     mentor
+Info: 2021.01.02.14:04:53 Info: Generating the following file(s) for VCS simulator in D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info:     synopsys/vcs
+Info: 2021.01.02.14:04:53 Info: Generating the following file(s) for VCSMX simulator in D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info:     synopsys/vcsmx
+Info: 2021.01.02.14:04:53 Info:     synopsys/vcsmx
+Info: 2021.01.02.14:04:53 Info: Generating the following file(s) for NCSIM simulator in D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info:     cadence
+Info: 2021.01.02.14:04:53 Info:     cadence
+Info: 2021.01.02.14:04:53 Info:     cadence
+Info: 2021.01.02.14:04:53 Info:     34 .cds.lib files in cadence/cds_libs
+Info: 2021.01.02.14:04:53 Info: Generating the following file(s) for RIVIERA simulator in D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info:     aldec
+Info: 2021.01.02.14:04:53 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/simulation
+Info: 2021.01.02.14:04:53 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2021.01.02.14:04:53 Info: Finished: Create Modelsim Project.
+Info: 2021.01.02.14:04:53 Info: Starting: Create block symbol file (.bsf)
+Info: 2021.01.02.14:04:53 Info: qsys-generate D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc.qsys --block-symbol-file --output-directory=D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc --family="Cyclone IV E" --part=EP4CE115F29C7
+Info: 2021.01.02.14:04:53 Info: Loading DrumMaster
+Info: 2021.01.02.14:04:53 Info: Reading input file
+Info: 2021.01.02.14:04:53 Info: Adding clk_0 [clock_source 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module clk_0
+Info: 2021.01.02.14:04:53 Info: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module jtag_uart_0
+Info: 2021.01.02.14:04:53 Info: Adding keycode [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module keycode
+Info: 2021.01.02.14:04:53 Info: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module nios2_gen2_0
+Info: 2021.01.02.14:04:53 Info: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module onchip_memory2_0
+Info: 2021.01.02.14:04:53 Info: Adding otg_hpi_address [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module otg_hpi_address
+Info: 2021.01.02.14:04:53 Info: Adding otg_hpi_cs [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module otg_hpi_cs
+Info: 2021.01.02.14:04:53 Info: Adding otg_hpi_data [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module otg_hpi_data
+Info: 2021.01.02.14:04:53 Info: Adding otg_hpi_r [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module otg_hpi_r
+Info: 2021.01.02.14:04:53 Info: Adding otg_hpi_reset [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module otg_hpi_reset
+Info: 2021.01.02.14:04:53 Info: Adding otg_hpi_w [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module otg_hpi_w
+Info: 2021.01.02.14:04:53 Info: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module sdram
+Info: 2021.01.02.14:04:53 Info: Adding sdram_pll [altpll 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module sdram_pll
+Info: 2021.01.02.14:04:53 Info: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Info: 2021.01.02.14:04:53 Info: Parameterizing module sysid_qsys_0
+Info: 2021.01.02.14:04:53 Info: Building connections
+Info: 2021.01.02.14:04:53 Info: Parameterizing connections
+Info: 2021.01.02.14:04:53 Info: Validating
+Info: 2021.01.02.14:04:54 Info: Done reading input file
+Info: 2021.01.02.14:04:56 Info: finalproj_soc.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: 2021.01.02.14:04:56 Info: finalproj_soc.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2021.01.02.14:04:56 Info: finalproj_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: 2021.01.02.14:04:56 Info: finalproj_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: 2021.01.02.14:04:56 Info: finalproj_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: 2021.01.02.14:04:56 Info: qsys-generate succeeded.
+Info: 2021.01.02.14:04:56 Info: Finished: Create block symbol file (.bsf)
+Info: 2021.01.02.14:04:56 Info:
+Info: 2021.01.02.14:04:56 Info: Starting: Create HDL design files for synthesis
+Info: 2021.01.02.14:04:56 Info: qsys-generate D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc.qsys --synthesis=VERILOG --output-directory=D:\curriculumFJ\ECE385\lab\DrumMaster\finalproj_soc\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Info: 2021.01.02.14:04:56 Info: Loading DrumMaster
+Info: 2021.01.02.14:04:57 Info: Reading input file
+Info: 2021.01.02.14:04:57 Info: Adding clk_0 [clock_source 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module clk_0
+Info: 2021.01.02.14:04:57 Info: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module jtag_uart_0
+Info: 2021.01.02.14:04:57 Info: Adding keycode [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module keycode
+Info: 2021.01.02.14:04:57 Info: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module nios2_gen2_0
+Info: 2021.01.02.14:04:57 Info: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module onchip_memory2_0
+Info: 2021.01.02.14:04:57 Info: Adding otg_hpi_address [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module otg_hpi_address
+Info: 2021.01.02.14:04:57 Info: Adding otg_hpi_cs [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module otg_hpi_cs
+Info: 2021.01.02.14:04:57 Info: Adding otg_hpi_data [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module otg_hpi_data
+Info: 2021.01.02.14:04:57 Info: Adding otg_hpi_r [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module otg_hpi_r
+Info: 2021.01.02.14:04:57 Info: Adding otg_hpi_reset [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module otg_hpi_reset
+Info: 2021.01.02.14:04:57 Info: Adding otg_hpi_w [altera_avalon_pio 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module otg_hpi_w
+Info: 2021.01.02.14:04:57 Info: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module sdram
+Info: 2021.01.02.14:04:57 Info: Adding sdram_pll [altpll 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module sdram_pll
+Info: 2021.01.02.14:04:57 Info: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Info: 2021.01.02.14:04:57 Info: Parameterizing module sysid_qsys_0
+Info: 2021.01.02.14:04:57 Info: Building connections
+Info: 2021.01.02.14:04:57 Info: Parameterizing connections
+Info: 2021.01.02.14:04:57 Info: Validating
+Info: 2021.01.02.14:04:58 Info: Done reading input file
+Info: 2021.01.02.14:04:59 Info: finalproj_soc.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: 2021.01.02.14:04:59 Info: finalproj_soc.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2021.01.02.14:04:59 Info: finalproj_soc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: 2021.01.02.14:04:59 Info: finalproj_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: 2021.01.02.14:04:59 Info: finalproj_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: 2021.01.02.14:04:59 Info: finalproj_soc: Generating finalproj_soc "finalproj_soc" for QUARTUS_SYNTH
+Info: 2021.01.02.14:05:02 Info: Inserting clock-crossing logic between cmd_demux.src5 and cmd_mux_005.sink0
+Info: 2021.01.02.14:05:02 Info: Inserting clock-crossing logic between cmd_demux_001.src4 and cmd_mux_005.sink1
+Info: 2021.01.02.14:05:02 Info: Inserting clock-crossing logic between rsp_demux_005.src0 and rsp_mux.sink5
+Info: 2021.01.02.14:05:02 Info: Inserting clock-crossing logic between rsp_demux_005.src1 and rsp_mux_001.sink4
+Info: 2021.01.02.14:05:06 Info: jtag_uart_0: Starting RTL generation for module 'finalproj_soc_jtag_uart_0'
+Info: 2021.01.02.14:05:06 Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=finalproj_soc_jtag_uart_0 --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0037_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0037_jtag_uart_0_gen/
+Info: 2021.01.02.14:05:07 Info: jtag_uart_0: Done RTL generation for module 'finalproj_soc_jtag_uart_0'
+Info: 2021.01.02.14:05:07 Info: jtag_uart_0: "finalproj_soc" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: 2021.01.02.14:05:07 Info: keycode: Starting RTL generation for module 'finalproj_soc_keycode'
+Info: 2021.01.02.14:05:07 Info: keycode:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_keycode --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0038_keycode_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0038_keycode_gen/
+Info: 2021.01.02.14:05:07 Info: keycode: Done RTL generation for module 'finalproj_soc_keycode'
+Info: 2021.01.02.14:05:07 Info: keycode: "finalproj_soc" instantiated altera_avalon_pio "keycode"
+Info: 2021.01.02.14:05:08 Info: nios2_gen2_0: "finalproj_soc" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: 2021.01.02.14:05:08 Info: onchip_memory2_0: Starting RTL generation for module 'finalproj_soc_onchip_memory2_0'
+Info: 2021.01.02.14:05:08 Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=finalproj_soc_onchip_memory2_0 --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0039_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0039_onchip_memory2_0_gen/
+Info: 2021.01.02.14:05:08 Info: onchip_memory2_0: Done RTL generation for module 'finalproj_soc_onchip_memory2_0'
+Info: 2021.01.02.14:05:08 Info: onchip_memory2_0: "finalproj_soc" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: 2021.01.02.14:05:08 Info: otg_hpi_address: Starting RTL generation for module 'finalproj_soc_otg_hpi_address'
+Info: 2021.01.02.14:05:08 Info: otg_hpi_address:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_otg_hpi_address --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0040_otg_hpi_address_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0040_otg_hpi_address_gen/
+Info: 2021.01.02.14:05:09 Info: otg_hpi_address: Done RTL generation for module 'finalproj_soc_otg_hpi_address'
+Info: 2021.01.02.14:05:09 Info: otg_hpi_address: "finalproj_soc" instantiated altera_avalon_pio "otg_hpi_address"
+Info: 2021.01.02.14:05:09 Info: otg_hpi_cs: Starting RTL generation for module 'finalproj_soc_otg_hpi_cs'
+Info: 2021.01.02.14:05:09 Info: otg_hpi_cs:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_otg_hpi_cs --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0041_otg_hpi_cs_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0041_otg_hpi_cs_gen/
+Info: 2021.01.02.14:05:09 Info: otg_hpi_cs: Done RTL generation for module 'finalproj_soc_otg_hpi_cs'
+Info: 2021.01.02.14:05:09 Info: otg_hpi_cs: "finalproj_soc" instantiated altera_avalon_pio "otg_hpi_cs"
+Info: 2021.01.02.14:05:09 Info: otg_hpi_data: Starting RTL generation for module 'finalproj_soc_otg_hpi_data'
+Info: 2021.01.02.14:05:09 Info: otg_hpi_data:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=finalproj_soc_otg_hpi_data --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0042_otg_hpi_data_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0042_otg_hpi_data_gen/
+Info: 2021.01.02.14:05:09 Info: otg_hpi_data: Done RTL generation for module 'finalproj_soc_otg_hpi_data'
+Info: 2021.01.02.14:05:09 Info: otg_hpi_data: "finalproj_soc" instantiated altera_avalon_pio "otg_hpi_data"
+Info: 2021.01.02.14:05:09 Info: sdram: Starting RTL generation for module 'finalproj_soc_sdram'
+Info: 2021.01.02.14:05:09 Info: sdram:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=finalproj_soc_sdram --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0043_sdram_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0043_sdram_gen/
+Info: 2021.01.02.14:05:09 Info: sdram: Done RTL generation for module 'finalproj_soc_sdram'
+Info: 2021.01.02.14:05:09 Info: sdram: "finalproj_soc" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: 2021.01.02.14:05:10 Info: sdram_pll: "finalproj_soc" instantiated altpll "sdram_pll"
+Info: 2021.01.02.14:05:10 Info: sysid_qsys_0: "finalproj_soc" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: 2021.01.02.14:05:23 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:24 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:25 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:25 Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:26 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:27 Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:27 Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:28 Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:29 Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:30 Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:30 Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:31 Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:32 Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: 2021.01.02.14:05:42 Info: mm_interconnect_0: "finalproj_soc" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: 2021.01.02.14:05:42 Info: irq_mapper: "finalproj_soc" instantiated altera_irq_mapper "irq_mapper"
+Info: 2021.01.02.14:05:42 Info: rst_controller: "finalproj_soc" instantiated altera_reset_controller "rst_controller"
+Info: 2021.01.02.14:05:42 Info: cpu: Starting RTL generation for module 'finalproj_soc_nios2_gen2_0_cpu'
+Info: 2021.01.02.14:05:42 Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=finalproj_soc_nios2_gen2_0_cpu --dir=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0049_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/li991/AppData/Local/Temp/alt8629_5983300384423580127.dir/0049_cpu_gen/
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:42 (*) Starting Nios II generation
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:42 (*)   Checking for plaintext license.
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   LM_LICENSE_FILE environment variable is empty
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   Plaintext license not found.
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   No license required to generate encrypted Nios II
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   Elaborating CPU configuration settings
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:43 (*)   Creating all objects for CPU
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:44 (*)   Generating RTL from CPU objects
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:44 (*)   Creating plain-text RTL
+Info: 2021.01.02.14:05:44 Info: cpu: # 2021.01.02 14:05:44 (*) Done Nios II generation
+Info: 2021.01.02.14:05:44 Info: cpu: Done RTL generation for module 'finalproj_soc_nios2_gen2_0_cpu'
+Info: 2021.01.02.14:05:44 Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: 2021.01.02.14:05:44 Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: 2021.01.02.14:05:44 Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: 2021.01.02.14:05:44 Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: 2021.01.02.14:05:44 Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: 2021.01.02.14:05:44 Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: 2021.01.02.14:05:44 Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: 2021.01.02.14:05:44 Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: 2021.01.02.14:05:44 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: 2021.01.02.14:05:45 Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: 2021.01.02.14:05:45 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: 2021.01.02.14:05:45 Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: 2021.01.02.14:05:45 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: 2021.01.02.14:05:45 Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: 2021.01.02.14:05:45 Info: Reusing file D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/synthesis/submodules
+Info: 2021.01.02.14:05:45 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: 2021.01.02.14:05:45 Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: 2021.01.02.14:05:45 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: 2021.01.02.14:05:45 Info: Reusing file D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/synthesis/submodules
+Info: 2021.01.02.14:05:45 Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: 2021.01.02.14:05:45 Info: Reusing file D:/curriculumFJ/ECE385/lab/DrumMaster/finalproj_soc/synthesis/submodules
+Info: 2021.01.02.14:05:45 Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: 2021.01.02.14:05:46 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: 2021.01.02.14:05:46 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: 2021.01.02.14:05:46 Info: finalproj_soc: Done "finalproj_soc" with 35 modules, 52 files
+Info: 2021.01.02.14:05:46 Info: qsys-generate succeeded.
+Info: 2021.01.02.14:05:46 Info: Finished: Create HDL design files for synthesis
+Info (11902): Backing up file "USB_Clock_PLL.v" to "USB_Clock_PLL.BAK.v"
+Info (11837): Started upgrading IP component ALTPLL with file "USB_Clock_PLL.v"
+Info (11902): Backing up file "vga_clk.v" to "vga_clk.BAK.v"
+Info (11837): Started upgrading IP component ALTPLL with file "vga_clk.v"
+Info (11131): Completed upgrading IP component Qsys with file "finalproj_soc.qsys"
+Info (11131): Completed upgrading IP component ALTPLL with file "USB_Clock_PLL.v"
+Info (11131): Completed upgrading IP component ALTPLL with file "vga_clk.v"
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4863 megabytes
+    Info: Processing ended: Sat Jan 02 14:05:49 2021
+    Info: Elapsed time: 00:02:22
+    Info: Total CPU time (on all processors): 00:02:07
+
+

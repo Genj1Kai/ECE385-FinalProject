@@ -1,0 +1,108 @@
+Quartus Prime Archive log --	C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ECE385_FinalProj_tmp_archive.qarlog
+
+Archive:	C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ECE385_FinalProj_tmp_archive.qar
+Date:		Tue Apr 30 15:39:34 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/Color_Mapper.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ECE385_FinalProj.qpf
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ECE385_FinalProj.qsf
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/HexDriver.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/VGA_controller.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/audio_interface.vhd
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/db/tap_auto_stripped.stp
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ece385-helpertools-master/png to hex/on-chip memory/sprite_bytes/blue_new.txt
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ece385-helpertools-master/png to hex/on-chip memory/sprite_bytes/green_new.txt
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ece385-helpertools-master/png to hex/on-chip memory/sprite_bytes/orange_new.txt
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ece385-helpertools-master/png to hex/on-chip memory/sprite_bytes/red_new.txt
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ece385-helpertools-master/png to hex/on-chip memory/sprite_bytes/yellow_new.txt
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc.qsys
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc.sopcinfo
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/finalproj_soc.cmp
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/finalproj_soc.debuginfo
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/finalproj_soc.qip
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/finalproj_soc.regmap
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/finalproj_soc.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_merlin_master_agent.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_merlin_master_translator.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_reset_controller.sdc
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_reset_controller.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_reset_synchronizer.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_irq_mapper.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_jtag_uart_0.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_keycode.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_avalon_st_adapter.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_cmd_demux.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_cmd_demux_001.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_cmd_mux.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_cmd_mux_001.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_router.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_router_001.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_router_002.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_router_003.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_rsp_demux.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_rsp_demux_001.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_rsp_mux.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_mm_interconnect_0_rsp_mux_001.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu.sdc
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_ociram_default_contents.mif
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_rf_ram_a.mif
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_rf_ram_b.mif
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_nios2_gen2_0_cpu_test_bench.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_onchip_memory2_0.hex
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_onchip_memory2_0.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_otg_hpi_address.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_otg_hpi_cs.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_otg_hpi_data.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_sdram.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_sdram_pll.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/finalproj_soc/synthesis/submodules/finalproj_soc_sysid_qsys_0.v
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/hpi_io_intf.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/music_modules.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/music_statemachine.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/note_modules.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ram_blue.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ram_green.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ram_orange.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ram_red.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ram_yellow.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/scoring.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/sprites_blue.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/sprites_green.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/sprites_orange.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/sprites_red.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/sprites_yellow.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/tap.stp
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/testbench.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/toplevel.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/tristate.sv
+C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/vga_clk.v
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 91 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Apr 30 15:39:45 2019
+Source archive file:	C:/Users/Kush/Documents/GitProjects/ECE385_FinalProj/ECE385_FinalProj_tmp_archive.qar
+Archive was extracted into	D:/385ABE/kushjp2_nparmar2/
+		 - successfully.
