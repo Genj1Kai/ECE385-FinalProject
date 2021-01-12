@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GuitarZero
 ### Objective
 For our Digital Systems Lab final project, my partners and I decided to make a Guitar Hero like name (aptly named Guitar Zero) that can run on the FPGA. Our objective was to display sprites to the screen and having those sprites drop down the screen based on the music that was loaded into memory.
@@ -7,3 +8,7 @@ This project turned out to be more complicated than we anticipated because we ha
  - SystemVerilog for all FPGA module code
  - C for all the driver itnerface code
  - Cyclone IV FPGA chip on which this whole game was presented
+=======
+# ECE385-FinalProject
+ECE385 FinalProject from ZJUI FA2020
+>>>>>>> 6e93f938e30a5902d16dcb6b09a157001bc8e323
